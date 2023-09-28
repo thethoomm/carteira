@@ -1,0 +1,27 @@
+nav {
+    background-color: #d4d4d8;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav > ul > li * {
+    padding: 0 2rem;
+    text-decoration: none;
+    color: #18181b;
+    transition: all 0.2s ease-in-out;
+}
+
+nav > ul > li *:hover {
+    color: #fff;
+    background-color: #18181b;
+}
